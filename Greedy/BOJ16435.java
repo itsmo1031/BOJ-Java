@@ -7,6 +7,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
+/*
+ * 16435
+ * 스네이크버드
+ * 실버 5
+ *
+ * 그리디 알고리즘
+ * 정렬
+ */
 public class BOJ16435 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
