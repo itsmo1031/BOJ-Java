@@ -21,21 +21,21 @@ public class BOJ14582 {
         int gap = 0;
         String answer = "No";
 
-        for (int i=0;i<2;i++){
+        for (int i = 0; i < 2; i++) {
             st = new StringTokenizer(br.readLine());
-            for (int j=0;j<9;j++) {
+            for (int j = 0; j < 9; j++) {
                 int next = Integer.parseInt(st.nextToken());
-                if (i==0) {
-                    gemini[j]=next;
+                if (i == 0) {
+                    gemini[j] = next;
                 } else {
-                    gulliver[j]=next;
+                    gulliver[j] = next;
                 }
             }
         }
 
-        for (int i=0;i<9;i++){
+        for (int i = 0; i < 9; i++) {
             gap += gemini[i];
-            if (gap>0){
+            if (gap > 0) {
                 answer = "Yes";
             }
             gap -= gulliver[i];
